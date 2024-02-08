@@ -8,12 +8,12 @@ with open("README.md", encoding="utf8") as readme_file:
     readme = readme_file.read()
 
 setup(
-    name="wagtail-cache",
+    name="cjkcms-cache",
     version=__version__,
-    author="CodeRed LLC",
-    author_email="info@coderedcorp.com",
-    url="https://github.com/coderedcorp/wagtail-cache",
-    description="A simple page cache for Wagtail based on the Django cache middleware.",
+    author="Grzegorz Krol",
+    author_email="info@cjkcms.com",
+    url="https://github.com/cjkpl/cjkcms-cache",
+    description="A simple page cache for Wagtail based on the Django cache middleware. Forked from wagtail-cache.",
     long_description=readme,
     long_description_content_type="text/markdown",
     license="BSD license",
