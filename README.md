@@ -1,5 +1,12 @@
-Wagtail Cache
+Wagtail (CJKCMS) Cache
 =============
+
+Project forked from [https://github.com/coderedcorp/wagtail-cache](Wagtail Cache) to add support for Wagtail 6.
+Original project is still at Wagtail 5 compatibility, making it unusable with [https://github.com/cjkpl/wagtail-cjkcms.git](CJKCMS).
+
+Package name is left without change (`wagtailcache`), so it can be used as drop-in replacement for original package.
+
+===========
 
 A fast and simple page cache for Wagtail, inspired by the Django cache
 middleware.
